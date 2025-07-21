@@ -6,7 +6,7 @@ workflows:
     integrations:
       app_store_connect: Chicken Whirl
     environment:
-      java: 11
+      java: 17
       groups:
         - chicken_whirl_app_store_credentials
         - chicken_whirl_certificate_credentials
