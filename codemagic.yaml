@@ -8,8 +8,8 @@ workflows:
     environment:
       java: 11
       groups:
-        - app_store_credentials
-        - certificate_credentials
+        - chicken_whirl_app_store_credentials
+        - chicken_whirl_certificate_credentials
       vars:
         BUNDLE_ID: "com.chickiroad.game"
         XCODE_PROJECT: "iosApp.xcodeproj"
